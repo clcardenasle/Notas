@@ -21,4 +21,8 @@
 `git branch --set-upstream-to origin/'rama'` --> conectarse con una rama del repositorio remoto (de ahí en adelante con solo hacer `git push` los cambios se van a cargar en el repositorio remoto).
 `git branch --all` --> miestra las ramas que hay creadas en el remoto
 `git checkout -b 'rama'` --> permite cambiar de rama.
+Llalalala
+
+Lelelele
+Lilililili
 

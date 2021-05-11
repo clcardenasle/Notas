@@ -20,4 +20,32 @@
 
 `git branch --set-upstream-to origin/'rama'` --> conectarse con una rama del repositorio remoto (de ahí en adelante con solo hacer `git push` los cambios se van a cargar en el repositorio remoto).  
 `git branch --all` --> miestra las ramas que hay creadas en el remoto  
-`git checkout -b 'rama'` --> permite cambiar de rama.  
+`git checkout -b 'rama'` --> crea y cambia de rama  
+`git push -u origin 'rama'`--> crea rama nueva y carga los cambios en ella  
+
+`git fetch` --> mostrar cambios en repositorio remoto sin aplicarlos  
+
+`cat 'documento.md'`--> mostrar contenido documento
+
+#### Cambio de rama - suspención temporal trabajo actual
+
+`git stash` --> deja cambios almacenados en stash (no incluye documentos nuevos)  
+`git stash list` --> muestra lista de cambios almacenados  
+`git stash apply stash@{0}`--> trae nuevamente los cambios para continuar trabajando  
+`git stash pop` --> trae cambios y de una vez los remueve  
+
+##### Edición de archivos
+
+`git rm 'documento.md'` -->  eliminar documento, luego requiere commit y push para terminar de ejecutar   
+`git mv 'documento.md' 'carpeta' `--> mover archivos de ubicación  
+`git mv 'documento.md' 'documentov2.md' `--> cambiar nombre de archivo  
+
+
+
+
+
+
+
+
+
+

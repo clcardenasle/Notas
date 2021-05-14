@@ -1,4 +1,4 @@
-# Dia 1 Make it Real
+# Dia 1
 ---
 
 > Parte 1

@@ -1,4 +1,4 @@
-# Dia 2 Make it Real
+# Dia 2
 ---
 
 > Parte 1
@@ -39,6 +39,32 @@
 `git rm 'documento.md'` -->  eliminar documento, luego requiere commit y push para terminar de ejecutar   
 `git mv 'documento.md' 'carpeta' `--> mover archivos de ubicación  
 `git mv 'documento.md' 'documentov2.md' `--> cambiar nombre de archivo  
+`git rm --cached 'documento'` --> eliminar archivo de repositorio github  
+
+---
+## GitFlow
+
+> Parte 2
+
+### Ramas
+- marter / producción: Código principal, código estable, código que tiene la interfaz en uso
+- QA: Listas para probar
+- Staging / dev / development: rama en la cual se ejecuta el desarrollo, nuevas funcionalidades
+
+*Siempre que se va a crear una nueva rama se debe hacer `git pull origin 'rama actual'` para ver las actualizaciones que han hecho las demás personas en esa rama* 
+
+### PR
+
+Se recomienda poner como titulo del PR algo descriptivo de lo que se ejecutará.  
+En las observaciones se recomienda poner todos los detalles posibles.
+
+
+
+
+
+
+
+
 
 
 

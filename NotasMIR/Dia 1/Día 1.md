@@ -58,7 +58,7 @@ Columnas: 1. Comentarios de lo que salió bien (start). 2. Comentarios de lo que
 PM Toma medidas para mejorar.
 
 Ejemplo Trello:
-![ejemplo trello](./ExampleTrello.jpg)
+![ejemplo trello](https://github.com/clcardenasle/Notas/blob/main/NotasMIR/Dia%201/ExampleTrello.JPG)
 Luego de "Testing". "Approval", PO aprueba la historia. "Done" Historia finalizada
 
 ---
